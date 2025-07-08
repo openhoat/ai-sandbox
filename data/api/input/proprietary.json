@@ -1,0 +1,25 @@
+{
+  "content": {
+    "fareProfileControlPolicy": "NON_BLOCKING",
+    "bookRailTransportationProposal": {
+      "passengers": [
+        {
+          "firstName": "...",
+          "lastName": "...",
+          "distributionChannelRank": 1,
+          "ageGroupCode": "59"
+        },
+        {
+          "firstName": "...",
+          "lastName": "...",
+          "distributionChannelRank": 2
+        }
+      ],
+      "railTransportationProposals": [
+        {
+          "@id": "4c87134c-0c8d-4bdb-911c-4d02970da00c-14"
+        }
+      ]
+    }
+  }
+}

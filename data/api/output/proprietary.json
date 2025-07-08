@@ -1,0 +1,2318 @@
+{
+  "content": {
+    "metadata": {
+      "warnings": [
+        {
+          "code": "3614",
+          "label": "At least one passenger has been ignored and may not appear in some service items"
+        }
+      ]
+    },
+    "createdOrder": {
+      "@id": "/refOrders/orders/CL8MYS"
+    },
+    "trips": [
+      {
+        "tripJourneys": [
+          {
+            "duration": 235,
+            "distance": 475,
+            "tripTrainSegments": [
+              {
+                "openSegment": false,
+                "distance": 385,
+                "carbonFootprint": {
+                  "unit": "KG",
+                  "trainFootprint": 2.4,
+                  "carFootprint": 41.6
+                },
+                "origin": {
+                  "codes": [
+                    {
+                      "code": "FRPMO",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87391003",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8739100",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "PARIS MONTPARNASSE 1 ET 2"
+                },
+                "destination": {
+                  "codes": [
+                    {
+                      "code": "FRNTE",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87481002",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8748100",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NANTES"
+                },
+                "nextSegment": {
+                  "@id": "_:19df5927-8e1e-4dca-a09f-f8540bc08948"
+                },
+                "scheduleInformations": [
+                  {
+                    "duration": 135,
+                    "departureDate": "2025-06-30T09:39",
+                    "arrivalDate": "2025-06-30T11:54",
+                    "status": "CONFIRMED"
+                  }
+                ],
+                "passengerOnTripSegments": [
+                  {
+                    "trainSegment": {
+                      "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+                    },
+                    "railTransportationServiceItem": {
+                      "@id": "/refOrders/orders/CL8MYS/serviceItems/45242b99-ead0-4b39-bbe5-b0b2f829c1be"
+                    },
+                    "passenger": {
+                      "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+                    }
+                  }
+                ],
+                "trainInformation": {
+                  "onBoardServices": [
+                    {
+                      "code": "SBAR"
+                    },
+                    {
+                      "code": "SHAN"
+                    },
+                    {
+                      "code": "SNUR"
+                    },
+                    {
+                      "code": "SNPP"
+                    },
+                    {
+                      "code": "SPRIS"
+                    },
+                    {
+                      "code": "SVEP"
+                    },
+                    {
+                      "code": "SWIF"
+                    }
+                  ],
+                  "trainType": "TGF",
+                  "carrierRics": "1187",
+                  "carrierCode": "SN",
+                  "trainNumber": "8973",
+                  "departureDay": "2025-06-30",
+                  "transportationServiceOffer": "INOUI",
+                  "brandCode": "0250"
+                },
+                "travelClass": "2"
+              },
+              {
+                "openSegment": false,
+                "distance": 90,
+                "carbonFootprint": {
+                  "unit": "KG",
+                  "trainFootprint": 13.6,
+                  "carFootprint": 9.7
+                },
+                "origin": {
+                  "codes": [
+                    {
+                      "code": "FRNTE",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87481002",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8748100",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NANTES"
+                },
+                "destination": {
+                  "codes": [
+                    {
+                      "code": "FRNML",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87320762",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8732076",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NOIRMOUTIER-EN-L'ILE"
+                },
+                "scheduleInformations": [
+                  {
+                    "duration": 100,
+                    "departureDate": "2025-06-30T12:15",
+                    "arrivalDate": "2025-06-30T13:55"
+                  }
+                ],
+                "previousSegment": {
+                  "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+                },
+                "passengerOnTripSegments": [
+                  {
+                    "trainSegment": {
+                      "@id": "_:19df5927-8e1e-4dca-a09f-f8540bc08948"
+                    },
+                    "railTransportationServiceItem": {
+                      "@id": "/refOrders/orders/CL8MYS/serviceItems/0bc7f794-f8c6-4618-b5a2-eaaf552b5245"
+                    },
+                    "passenger": {
+                      "@id": "_:6dce7bb6-b4de-4ec0-9191-78d5accb3051"
+                    }
+                  }
+                ],
+                "trainInformation": {
+                  "serviceOperatorCode": "FR:Operator::07B82396-04B1-48F0-84BF-36C7F1B81442:",
+                  "transportationModeCode": "3274b195-e79f-4ca5-b899-036e96b96a74",
+                  "trainType": "CAR",
+                  "carrierRics": "1187",
+                  "carrierCode": "SN",
+                  "trainNumber": "97293",
+                  "departureDay": "2025-06-30",
+                  "regionalIdentity": {
+                    "lineCode": "FR:Line::30AF6125-C953-4343-96A7-A0E01616A18A:",
+                    "transportationModeLabel": "CAR",
+                    "serviceOperatorLabel": "SNCF VOYAGEURS",
+                    "trainNumberLabel": "097293",
+                    "commercialBrand": "TER"
+                  },
+                  "transportationServiceOffer": "AUTO",
+                  "commercialBrand": "TER",
+                  "brandCode": "0246"
+                },
+                "travelClass": "2"
+              }
+            ],
+            "carbonFootprint": {
+              "unit": "KG",
+              "trainFootprint": 16,
+              "carFootprint": 41.6
+            },
+            "origin": {
+              "codes": [
+                {
+                  "code": "FRPMO",
+                  "type": "RR"
+                },
+                {
+                  "code": "87391003",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8739100",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "PARIS MONTPARNASSE 1 ET 2"
+            },
+            "destination": {
+              "codes": [
+                {
+                  "code": "FRNML",
+                  "type": "RR"
+                },
+                {
+                  "code": "87320762",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8732076",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "NOIRMOUTIER-EN-L'ILE"
+            },
+            "departureDate": "2025-06-30T09:39",
+            "arrivalDate": "2025-06-30T13:55",
+            "tags": ["A"],
+            "co2SumStatus": "TOTAL"
+          }
+        ],
+        "tripPassengers": [
+          {
+            "firstName": "...",
+            "lastName": "...",
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              },
+              {
+                "@id": "_:6dce7bb6-b4de-4ec0-9191-78d5accb3051"
+              }
+            ],
+            "distributionChannelRank": 1,
+            "customer": {
+              "@id": "_:7051ba8e-5d79-4ca6-8e03-8281a3781e5e"
+            }
+          }
+        ]
+      },
+      {
+        "tripJourneys": [
+          {
+            "duration": 100,
+            "distance": 90,
+            "tripTrainSegments": [
+              {
+                "openSegment": false,
+                "distance": 90,
+                "carbonFootprint": {
+                  "unit": "KG",
+                  "trainFootprint": 13.6,
+                  "carFootprint": 9.7
+                },
+                "origin": {
+                  "codes": [
+                    {
+                      "code": "FRNTE",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87481002",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8748100",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NANTES"
+                },
+                "destination": {
+                  "codes": [
+                    {
+                      "code": "FRNML",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87320762",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8732076",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NOIRMOUTIER-EN-L'ILE"
+                },
+                "scheduleInformations": [
+                  {
+                    "duration": 100,
+                    "departureDate": "2025-06-30T12:15",
+                    "arrivalDate": "2025-06-30T13:55"
+                  }
+                ],
+                "passengerOnTripSegments": [
+                  {
+                    "trainSegment": {
+                      "@id": "_:13f35561-fec5-47bf-8eee-41f97ecfbed7"
+                    },
+                    "railTransportationServiceItem": {
+                      "@id": "/refOrders/orders/CL8MYS/serviceItems/3cda4c39-cbc7-42b6-a6c2-56236899179d"
+                    },
+                    "passenger": {
+                      "@id": "_:86f39607-2eae-4820-b188-bedc098a7d4a"
+                    }
+                  }
+                ],
+                "trainInformation": {
+                  "serviceOperatorCode": "FR:Operator::07B82396-04B1-48F0-84BF-36C7F1B81442:",
+                  "transportationModeCode": "3274b195-e79f-4ca5-b899-036e96b96a74",
+                  "trainType": "CAR",
+                  "carrierRics": "1187",
+                  "carrierCode": "SN",
+                  "trainNumber": "97293",
+                  "departureDay": "2025-06-30",
+                  "regionalIdentity": {
+                    "lineCode": "FR:Line::30AF6125-C953-4343-96A7-A0E01616A18A:",
+                    "transportationModeLabel": "CAR",
+                    "serviceOperatorLabel": "SNCF VOYAGEURS",
+                    "trainNumberLabel": "097293",
+                    "commercialBrand": "TER"
+                  },
+                  "transportationServiceOffer": "AUTO",
+                  "commercialBrand": "TER",
+                  "brandCode": "0246"
+                },
+                "travelClass": "2"
+              }
+            ],
+            "carbonFootprint": {
+              "unit": "KG",
+              "trainFootprint": 13.6,
+              "carFootprint": 9.7
+            },
+            "origin": {
+              "codes": [
+                {
+                  "code": "FRNTE",
+                  "type": "RR"
+                },
+                {
+                  "code": "87481002",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8748100",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "NANTES"
+            },
+            "destination": {
+              "codes": [
+                {
+                  "code": "FRNML",
+                  "type": "RR"
+                },
+                {
+                  "code": "87320762",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8732076",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "NOIRMOUTIER-EN-L'ILE"
+            },
+            "departureDate": "2025-06-30T12:15",
+            "arrivalDate": "2025-06-30T13:55",
+            "tags": ["A"],
+            "co2SumStatus": "TOTAL"
+          }
+        ],
+        "tripPassengers": [
+          {
+            "firstName": "...",
+            "lastName": "...",
+            "passengers": [
+              {
+                "@id": "_:86f39607-2eae-4820-b188-bedc098a7d4a"
+              }
+            ],
+            "distributionChannelRank": 2,
+            "customer": {
+              "@id": "_:315531a5-5f16-43c1-8589-5c9ad1c7a8f9"
+            }
+          }
+        ]
+      }
+    ],
+    "bookedServiceItems": [
+      {
+        "serviceLinks": [
+          {
+            "linkedService": {
+              "@id": "/refOrders/orders/CL8MYS/serviceItems/3cda4c39-cbc7-42b6-a6c2-56236899179d"
+            },
+            "linkType": {
+              "code": "Splitted"
+            }
+          },
+          {
+            "linkedService": {
+              "@id": "/refOrders/orders/CL8MYS/serviceItems/45242b99-ead0-4b39-bbe5-b0b2f829c1be"
+            },
+            "linkType": {
+              "code": "prevOutward"
+            }
+          }
+        ],
+        "productAllocations": [
+          {
+            "product": {
+              "code": "ODS_PDL_NU04_DIGITAL_BILLET_ECCO_ADULTE_PETITS_PRIX_TER",
+              "microConditionCodes": [
+                "ODS_OFFRE_PETITS_PRIX_EN_VENTE_JU_F4544B806A70C2E0850F639A76A84013"
+              ],
+              "@id": "/catalog/products/ODS_PDL_NU04_DIGITAL_BILLET_ECCO_ADULTE_PETITS_PRIX_TER",
+              "label": "Billet ecco adulte",
+              "properties": [
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "exchangeable",
+                  "booleanValue": false
+                },
+                {
+                  "stringValue": "Billet ecco adulte",
+                  "propertyType": "STRING",
+                  "name": "displayLabel"
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "flexibilityLevel",
+                  "integerValue": 1
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "limitedOffer",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "minPaxNumber",
+                  "integerValue": 1
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "requiredProof",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "supportList",
+                  "stringListValue": ["DIGITALISE"]
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "ageGroupCodeList",
+                  "stringListValue": ["59", "25", "3", "11", "60"]
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "packageProductFlag",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "benificiaryTypeList",
+                  "stringListValue": ["Adulte"]
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "refundable",
+                  "booleanValue": true
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "maxPaxNumber",
+                  "integerValue": 1
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "fareProfileList"
+                },
+                {
+                  "stringValue": "Billet",
+                  "propertyType": "STRING",
+                  "name": "familyProduct"
+                },
+                {
+                  "stringValue": "NU04_DIGITAL_Billet ecco adulte petits prix TER",
+                  "propertyType": "STRING",
+                  "name": "mcsProductCode"
+                }
+              ],
+              "metaProduct": {
+                "@id": "/catalog/metaProducts/TRAIN_PDL"
+              }
+            },
+            "passengers": [
+              {
+                "@id": "_:6dce7bb6-b4de-4ec0-9191-78d5accb3051"
+              }
+            ],
+            "trainSegments": [
+              {
+                "@id": "_:19df5927-8e1e-4dca-a09f-f8540bc08948"
+              }
+            ],
+            "properties": [
+              {
+                "propertyType": "BOOLEAN",
+                "name": "upgrade",
+                "booleanValue": false
+              },
+              {
+                "stringValue": "AS",
+                "propertyType": "STRING",
+                "name": "travelDirection"
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "returnMandatory",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "STRING_LIST",
+                "name": "ageGroupCodeList",
+                "stringListValue": ["60", "59", "25"]
+              },
+              {
+                "stringValue": "NU04",
+                "propertyType": "STRING",
+                "name": "fareCode"
+              },
+              {
+                "propertyType": "STRING_LIST",
+                "name": "fareCodes",
+                "stringListValue": ["NU04"]
+              },
+              {
+                "stringValue": "2025-06-30",
+                "propertyType": "STRING",
+                "name": "beginDateOfUse"
+              },
+              {
+                "stringValue": "2025-06-30",
+                "propertyType": "STRING",
+                "name": "endDateOfUse"
+              },
+              {
+                "stringValue": "1 jour",
+                "propertyType": "STRING",
+                "name": "timeLife"
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "restrictionTime",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "inwardUse",
+                "booleanValue": false
+              },
+              {
+                "stringValue": "NONE",
+                "propertyType": "STRING",
+                "name": "fareProfile"
+              },
+              {
+                "propertyType": "INTEGER",
+                "name": "numberOfUse",
+                "integerValue": 1
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "unlimitedUse",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "immediatePayment",
+                "booleanValue": false
+              }
+            ]
+          }
+        ],
+        "journeys": [
+          {
+            "duration": 100,
+            "distance": 90,
+            "realisable": true,
+            "carbonFootprint": {
+              "unit": "KG",
+              "trainFootprint": 13.6,
+              "carFootprint": 9.7
+            },
+            "origin": {
+              "codes": [
+                {
+                  "code": "FRNTE",
+                  "type": "RR"
+                },
+                {
+                  "code": "87481002",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8748100",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "NANTES"
+            },
+            "destination": {
+              "codes": [
+                {
+                  "code": "FRNML",
+                  "type": "RR"
+                },
+                {
+                  "code": "87320762",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8732076",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "NOIRMOUTIER-EN-L'ILE"
+            },
+            "@id": "_:227f0c4c-ae26-4aa5-ac41-40a1a67d185d",
+            "departureDate": "2025-06-30T12:15",
+            "arrivalDate": "2025-06-30T13:55",
+            "tags": ["A"],
+            "segments": [
+              {
+                "openSegment": false,
+                "distance": 90,
+                "carbonFootprint": {
+                  "unit": "KG",
+                  "trainFootprint": 13.6,
+                  "carFootprint": 9.7
+                },
+                "origin": {
+                  "codes": [
+                    {
+                      "code": "FRNTE",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87481002",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8748100",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NANTES"
+                },
+                "infoTrain": {
+                  "serviceOperatorCode": "FR:Operator::07B82396-04B1-48F0-84BF-36C7F1B81442:",
+                  "transportationModeCode": "3274b195-e79f-4ca5-b899-036e96b96a74",
+                  "trainType": "CAR",
+                  "carrierRics": "1187",
+                  "carrierCode": "SN",
+                  "trainNumber": "97293",
+                  "departureDay": "2025-06-30",
+                  "regionalIdentity": {
+                    "lineCode": "FR:Line::30AF6125-C953-4343-96A7-A0E01616A18A:",
+                    "transportationModeLabel": "CAR",
+                    "serviceOperatorLabel": "SNCF VOYAGEURS",
+                    "trainNumberLabel": "097293",
+                    "commercialBrand": "TER"
+                  },
+                  "transportationServiceOffer": "AUTO",
+                  "commercialBrand": "TER",
+                  "brandCode": "0246"
+                },
+                "destination": {
+                  "codes": [
+                    {
+                      "code": "FRNML",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87320762",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8732076",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NOIRMOUTIER-EN-L'ILE"
+                },
+                "scheduleInformations": [
+                  {
+                    "duration": 100,
+                    "departureDate": "2025-06-30T12:15",
+                    "arrivalDate": "2025-06-30T13:55"
+                  }
+                ],
+                "rank": "1",
+                "companyCodes": ["1187"],
+                "@id": "_:19df5927-8e1e-4dca-a09f-f8540bc08948",
+                "travelClass": "2"
+              }
+            ],
+            "co2SumStatus": "TOTAL"
+          }
+        ],
+        "passengers": [
+          {
+            "firstName": "...",
+            "lastName": "...",
+            "ticketless": false,
+            "smsReminderEligibility": false,
+            "distributionChannelRank": 1,
+            "rank": "1",
+            "ageAtTravelTime": 30,
+            "@id": "_:6dce7bb6-b4de-4ec0-9191-78d5accb3051",
+            "customer": {
+              "@id": "_:7051ba8e-5d79-4ca6-8e03-8281a3781e5e"
+            }
+          }
+        ],
+        "deliveryTerm": {
+          "carmillonPassControl": false,
+          "paymentCardControl": false
+        },
+        "confirmationDateLimit": "2025-06-17T19:32",
+        "marketingCarrierRefCreationTimestamp": "2025-06-17T16:32:18",
+        "creationDistributionChannel": {
+          "pointOfSaleLabel": "INTERNET CONNEXION CENTRAL",
+          "agent": "WEB",
+          "machineCode": "43",
+          "uicCityCode": "87204966",
+          "foreignAgency": false,
+          "agency": true,
+          "revenueOfficeCode": "1",
+          "category": "VSC_FRANCE"
+        },
+        "nameControl": false,
+        "contactInformation": {
+          "declineRecontact": false
+        },
+        "quote": {
+          "amount": {
+            "amount": 15,
+            "currency": "EUR"
+          },
+          "pricesBySegmentsAndPassengers": [
+            {
+              "amount": {
+                "amount": 15,
+                "currency": "EUR"
+              },
+              "passengers": [
+                {
+                  "@id": "_:6dce7bb6-b4de-4ec0-9191-78d5accb3051"
+                }
+              ],
+              "trainSegments": [
+                {
+                  "@id": "_:19df5927-8e1e-4dca-a09f-f8540bc08948"
+                }
+              ]
+            }
+          ],
+          "meansOfPaymentEligibilities": [
+            {
+              "paymentMethod": "PARTIAL_PAYMENT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_WITH_LODGE",
+              "additionalInformationType": "CARD_NUMBER"
+            },
+            {
+              "paymentMethod": "CHIP_DEBIT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "VACATION_CHECK",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SHARED_PAYMENT",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CB_LODGE_WITH_TRANSACTION_ID",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CB_WITH_TRANSACTION_ID",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVELLERS_CHECK",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PRELIMINARY_PAYMENT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "REDUCTION_COUPON",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CV_CONNECT_VAD",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "RAILPASS",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "EXCHANGE",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_WITH_TRANSACTION_ID",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "SPLIT_PAYMENT",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_CV_CONNECT_PROX",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_WITH_SMILES_POINTS",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVEL_VOUCHER",
+              "additionalInformationType": "RECEIPT_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_LODGE_WITH_TRANSACTION_ID",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "SNCF_CORPORATE_ACCOUNT",
+              "additionalInformationType": "CORPORATE_ACCOUNT_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "PROMOTIONAL_VOUCHER",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVEL_AGENCY_CORPORATE_ACCOUNT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "CASH",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "BANK_CHECK_OR_TRAVELER_CHECK",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "CREDIT_CARD",
+              "additionalInformationType": "CARD_NUMBER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_TRANSFERT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_PAYLIB",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SPLIT_PAYMENT_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_WITHOUT_LECAM",
+              "additionalInformationType": "CARD_NUMBER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_PAYPAL",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PAYMENT_WITH_LOYALTY_CARD",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SNCF_CREDIT_CARD",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "VOUCHER",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SPECIFIC_VOUCHER",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVEL_COUPON_VOUCHER",
+              "additionalInformationType": "OTHER"
+            }
+          ],
+          "issuable": true,
+          "ticketKindEligibilitiesWithRequiredData": [
+            {
+              "ticketKindCode": "DEMATERIALIZED",
+              "supportKindEligibilities": [
+                {
+                  "supportKindCode": "MOBILE_DEVICE",
+                  "deliveryKindEligibilities": [
+                    {
+                      "deliveryKindCode": "DISTRIBUTOR_OWN_MANAGEMENT"
+                    }
+                  ]
+                },
+                {
+                  "supportKindCode": "PDF",
+                  "deliveryKindEligibilities": [
+                    {
+                      "deliveryKindCode": "EMAIL"
+                    },
+                    {
+                      "deliveryKindCode": "DISTRIBUTOR_OWN_MANAGEMENT"
+                    }
+                  ]
+                }
+              ],
+              "requiredPassengersDataForIssuing": [
+                {
+                  "passengers": [
+                    {
+                      "@id": "_:6dce7bb6-b4de-4ec0-9191-78d5accb3051"
+                    }
+                  ],
+                  "requiredData": {
+                    "logicalOperator": "AND",
+                    "attributeNameOperandList": [
+                      "lastName",
+                      "firstName",
+                      "birthDate"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "eligibleToInvoice": false,
+        "@id": "/refOrders/orders/CL8MYS/serviceItems/0bc7f794-f8c6-4618-b5a2-eaaf552b5245",
+        "marketingCarrierRef": "F8JK7R",
+        "category": "RAIL_TRANSPORTATION",
+        "status": "TO_BE_CONFIRMED"
+      },
+      {
+        "serviceLinks": [
+          {
+            "linkedService": {
+              "@id": "/refOrders/orders/CL8MYS/serviceItems/0bc7f794-f8c6-4618-b5a2-eaaf552b5245"
+            },
+            "linkType": {
+              "code": "Splitted"
+            }
+          },
+          {
+            "linkedService": {
+              "@id": "/refOrders/orders/CL8MYS/serviceItems/45242b99-ead0-4b39-bbe5-b0b2f829c1be"
+            },
+            "linkType": {
+              "code": "prevOutward"
+            }
+          }
+        ],
+        "productAllocations": [
+          {
+            "product": {
+              "code": "ODS_PDL_CH98_DIGITAL_BILLET_PETIT_ANIMAL_CATALOGUE_INTRA",
+              "microConditionCodes": [
+                "ODS_CHIEN_OU_ANIMAL_DE_MOINS_DE_6_3054452BADC5328D7CF6E54E21FAFA31"
+              ],
+              "@id": "/catalog/products/ODS_PDL_CH98_DIGITAL_BILLET_PETIT_ANIMAL_CATALOGUE_INTRA",
+              "label": "Billet Petit Animal dans les Pays de la Loire",
+              "properties": [
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "exchangeable",
+                  "booleanValue": false
+                },
+                {
+                  "stringValue": "Billet Petit Animal dans les Pays de la Loire",
+                  "propertyType": "STRING",
+                  "name": "displayLabel"
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "flexibilityLevel",
+                  "integerValue": 1
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "limitedOffer",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "minPaxNumber",
+                  "integerValue": 1
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "requiredProof",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "supportList",
+                  "stringListValue": ["DIGITALISE"]
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "ageGroupCodeList",
+                  "stringListValue": ["59", "25", "3", "11", "60"]
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "packageProductFlag",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "benificiaryTypeList",
+                  "stringListValue": ["Animal"]
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "refundable",
+                  "booleanValue": true
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "maxPaxNumber",
+                  "integerValue": 1
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "fareProfileList",
+                  "stringListValue": ["ANIP"]
+                },
+                {
+                  "stringValue": "Billet",
+                  "propertyType": "STRING",
+                  "name": "familyProduct"
+                },
+                {
+                  "stringValue": "CH98_DIGITAL_Billet Petit Animal catalogue Intra",
+                  "propertyType": "STRING",
+                  "name": "mcsProductCode"
+                }
+              ],
+              "metaProduct": {
+                "@id": "/catalog/metaProducts/TRAIN_PDL"
+              }
+            },
+            "passengers": [
+              {
+                "@id": "_:86f39607-2eae-4820-b188-bedc098a7d4a"
+              }
+            ],
+            "trainSegments": [
+              {
+                "@id": "_:13f35561-fec5-47bf-8eee-41f97ecfbed7"
+              }
+            ],
+            "properties": [
+              {
+                "propertyType": "BOOLEAN",
+                "name": "upgrade",
+                "booleanValue": false
+              },
+              {
+                "stringValue": "AS",
+                "propertyType": "STRING",
+                "name": "travelDirection"
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "returnMandatory",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "STRING_LIST",
+                "name": "ageGroupCodeList"
+              },
+              {
+                "stringValue": "CH98",
+                "propertyType": "STRING",
+                "name": "fareCode"
+              },
+              {
+                "propertyType": "STRING_LIST",
+                "name": "fareCodes",
+                "stringListValue": ["CH98"]
+              },
+              {
+                "stringValue": "2025-06-30",
+                "propertyType": "STRING",
+                "name": "beginDateOfUse"
+              },
+              {
+                "stringValue": "1 jour",
+                "propertyType": "STRING",
+                "name": "timeLife"
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "restrictionTime",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "inwardUse",
+                "booleanValue": false
+              },
+              {
+                "stringValue": "ANIP",
+                "propertyType": "STRING",
+                "name": "fareProfile"
+              },
+              {
+                "propertyType": "INTEGER",
+                "name": "numberOfUse",
+                "integerValue": 1
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "unlimitedUse",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "immediatePayment",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "STRING_LIST",
+                "name": "fareGroupList",
+                "stringListValue": ["ANI"]
+              }
+            ]
+          }
+        ],
+        "journeys": [
+          {
+            "duration": 100,
+            "distance": 90,
+            "realisable": true,
+            "carbonFootprint": {
+              "unit": "KG",
+              "trainFootprint": 13.6,
+              "carFootprint": 9.7
+            },
+            "origin": {
+              "codes": [
+                {
+                  "code": "FRNTE",
+                  "type": "RR"
+                },
+                {
+                  "code": "87481002",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8748100",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "NANTES"
+            },
+            "destination": {
+              "codes": [
+                {
+                  "code": "FRNML",
+                  "type": "RR"
+                },
+                {
+                  "code": "87320762",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8732076",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "NOIRMOUTIER-EN-L'ILE"
+            },
+            "@id": "_:48a1b3d3-e1cb-49fb-939e-836ad1069e8b",
+            "departureDate": "2025-06-30T12:15",
+            "arrivalDate": "2025-06-30T13:55",
+            "tags": ["A"],
+            "segments": [
+              {
+                "openSegment": false,
+                "distance": 90,
+                "carbonFootprint": {
+                  "unit": "KG",
+                  "trainFootprint": 13.6,
+                  "carFootprint": 9.7
+                },
+                "origin": {
+                  "codes": [
+                    {
+                      "code": "FRNTE",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87481002",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8748100",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NANTES"
+                },
+                "infoTrain": {
+                  "serviceOperatorCode": "FR:Operator::07B82396-04B1-48F0-84BF-36C7F1B81442:",
+                  "transportationModeCode": "3274b195-e79f-4ca5-b899-036e96b96a74",
+                  "trainType": "CAR",
+                  "carrierRics": "1187",
+                  "carrierCode": "SN",
+                  "trainNumber": "97293",
+                  "departureDay": "2025-06-30",
+                  "regionalIdentity": {
+                    "lineCode": "FR:Line::30AF6125-C953-4343-96A7-A0E01616A18A:",
+                    "transportationModeLabel": "CAR",
+                    "serviceOperatorLabel": "SNCF VOYAGEURS",
+                    "trainNumberLabel": "097293",
+                    "commercialBrand": "TER"
+                  },
+                  "transportationServiceOffer": "AUTO",
+                  "commercialBrand": "TER",
+                  "brandCode": "0246"
+                },
+                "destination": {
+                  "codes": [
+                    {
+                      "code": "FRNML",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87320762",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8732076",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NOIRMOUTIER-EN-L'ILE"
+                },
+                "scheduleInformations": [
+                  {
+                    "duration": 100,
+                    "departureDate": "2025-06-30T12:15",
+                    "arrivalDate": "2025-06-30T13:55"
+                  }
+                ],
+                "rank": "1",
+                "companyCodes": ["1187"],
+                "@id": "_:13f35561-fec5-47bf-8eee-41f97ecfbed7",
+                "travelClass": "2"
+              }
+            ],
+            "co2SumStatus": "TOTAL"
+          }
+        ],
+        "passengers": [
+          {
+            "firstName": "...",
+            "lastName": "...",
+            "ticketless": false,
+            "smsReminderEligibility": false,
+            "distributionChannelRank": 2,
+            "rank": "1",
+            "@id": "_:86f39607-2eae-4820-b188-bedc098a7d4a",
+            "customer": {
+              "@id": "_:315531a5-5f16-43c1-8589-5c9ad1c7a8f9"
+            }
+          }
+        ],
+        "deliveryTerm": {
+          "carmillonPassControl": false,
+          "paymentCardControl": false
+        },
+        "confirmationDateLimit": "2025-06-17T19:32",
+        "marketingCarrierRefCreationTimestamp": "2025-06-17T16:32:18",
+        "creationDistributionChannel": {
+          "pointOfSaleLabel": "INTERNET CONNEXION CENTRAL",
+          "agent": "WEB",
+          "machineCode": "43",
+          "uicCityCode": "87204966",
+          "foreignAgency": false,
+          "agency": true,
+          "revenueOfficeCode": "1",
+          "category": "VSC_FRANCE"
+        },
+        "nameControl": false,
+        "contactInformation": {
+          "declineRecontact": false
+        },
+        "quote": {
+          "amount": {
+            "amount": 0,
+            "currency": "EUR"
+          },
+          "pricesBySegmentsAndPassengers": [
+            {
+              "amount": {
+                "amount": 0,
+                "currency": "EUR"
+              },
+              "passengers": [
+                {
+                  "@id": "_:86f39607-2eae-4820-b188-bedc098a7d4a"
+                }
+              ],
+              "trainSegments": [
+                {
+                  "@id": "_:13f35561-fec5-47bf-8eee-41f97ecfbed7"
+                }
+              ]
+            }
+          ],
+          "meansOfPaymentEligibilities": [
+            {
+              "paymentMethod": "PARTIAL_PAYMENT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_WITH_LODGE",
+              "additionalInformationType": "CARD_NUMBER"
+            },
+            {
+              "paymentMethod": "CHIP_DEBIT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "VACATION_CHECK",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SHARED_PAYMENT",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CB_LODGE_WITH_TRANSACTION_ID",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CB_WITH_TRANSACTION_ID",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVELLERS_CHECK",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PRELIMINARY_PAYMENT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "REDUCTION_COUPON",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CV_CONNECT_VAD",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "RAILPASS",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "EXCHANGE",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_WITH_TRANSACTION_ID",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "SPLIT_PAYMENT",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_CV_CONNECT_PROX",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_WITH_SMILES_POINTS",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVEL_VOUCHER",
+              "additionalInformationType": "RECEIPT_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_LODGE_WITH_TRANSACTION_ID",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "SNCF_CORPORATE_ACCOUNT",
+              "additionalInformationType": "CORPORATE_ACCOUNT_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "PROMOTIONAL_VOUCHER",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVEL_AGENCY_CORPORATE_ACCOUNT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "CASH",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "BANK_CHECK_OR_TRAVELER_CHECK",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "CREDIT_CARD",
+              "additionalInformationType": "CARD_NUMBER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_TRANSFERT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_PAYLIB",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SPLIT_PAYMENT_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_WITHOUT_LECAM",
+              "additionalInformationType": "CARD_NUMBER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_PAYPAL",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PAYMENT_WITH_LOYALTY_CARD",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SNCF_CREDIT_CARD",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "VOUCHER",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SPECIFIC_VOUCHER",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVEL_COUPON_VOUCHER",
+              "additionalInformationType": "OTHER"
+            }
+          ],
+          "issuable": true,
+          "ticketKindEligibilitiesWithRequiredData": [
+            {
+              "ticketKindCode": "DEMATERIALIZED",
+              "supportKindEligibilities": [
+                {
+                  "supportKindCode": "MOBILE_DEVICE",
+                  "deliveryKindEligibilities": [
+                    {
+                      "deliveryKindCode": "DISTRIBUTOR_OWN_MANAGEMENT"
+                    }
+                  ]
+                },
+                {
+                  "supportKindCode": "PDF",
+                  "deliveryKindEligibilities": [
+                    {
+                      "deliveryKindCode": "EMAIL"
+                    },
+                    {
+                      "deliveryKindCode": "DISTRIBUTOR_OWN_MANAGEMENT"
+                    }
+                  ]
+                }
+              ],
+              "requiredPassengersDataForIssuing": [
+                {
+                  "passengers": [
+                    {
+                      "@id": "_:86f39607-2eae-4820-b188-bedc098a7d4a"
+                    }
+                  ],
+                  "requiredData": {
+                    "logicalOperator": "AND",
+                    "attributeNameOperandList": [
+                      "lastName",
+                      "firstName",
+                      "birthDate"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "eligibleToInvoice": false,
+        "@id": "/refOrders/orders/CL8MYS/serviceItems/3cda4c39-cbc7-42b6-a6c2-56236899179d",
+        "marketingCarrierRef": "31I4V3",
+        "category": "RAIL_TRANSPORTATION",
+        "status": "TO_BE_CONFIRMED"
+      },
+      {
+        "serviceLinks": [
+          {
+            "linkedService": {
+              "@id": "/refOrders/orders/CL8MYS/serviceItems/0bc7f794-f8c6-4618-b5a2-eaaf552b5245"
+            },
+            "linkType": {
+              "code": "nextOutward"
+            }
+          },
+          {
+            "linkedService": {
+              "@id": "/refOrders/orders/CL8MYS/serviceItems/3cda4c39-cbc7-42b6-a6c2-56236899179d"
+            },
+            "linkType": {
+              "code": "nextOutward"
+            }
+          }
+        ],
+        "productAllocations": [
+          {
+            "product": {
+              "microConditionCodes": ["SSC_PR_SF_COM_SA_TGV"],
+              "label": "Tarif STANDARD SECONDE",
+              "properties": [
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "exchangeable",
+                  "booleanValue": true
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "flexibilityLevel",
+                  "integerValue": 1
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "minPaxNumber",
+                  "integerValue": 1
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "refundable",
+                  "booleanValue": true
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "maxPaxNumber",
+                  "integerValue": 9
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "returnMandatory",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "fareProfileList"
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "fullRefundPenalty",
+                  "booleanValue": false
+                }
+              ],
+              "metaProduct": {
+                "@id": "/catalog/metaProducts/TRAIN_VOYAGES_S3"
+              }
+            },
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              }
+            ],
+            "trainSegments": [
+              {
+                "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+              }
+            ],
+            "properties": [
+              {
+                "stringValue": "JR11",
+                "propertyType": "STRING",
+                "name": "fareCode"
+              },
+              {
+                "propertyType": "STRING_LIST",
+                "name": "ageGroupCodeList",
+                "stringListValue": ["59"]
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "immediatePayment",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "returnMandatory",
+                "booleanValue": false
+              }
+            ]
+          }
+        ],
+        "journeys": [
+          {
+            "duration": 135,
+            "distance": 385,
+            "realisable": true,
+            "carbonFootprint": {
+              "unit": "KG",
+              "trainFootprint": 2.4,
+              "carFootprint": 41.6
+            },
+            "origin": {
+              "codes": [
+                {
+                  "code": "FRPMO",
+                  "type": "RR"
+                },
+                {
+                  "code": "87391003",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8739100",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "PARIS MONTPARNASSE 1 ET 2"
+            },
+            "destination": {
+              "codes": [
+                {
+                  "code": "FRNTE",
+                  "type": "RR"
+                },
+                {
+                  "code": "87481002",
+                  "type": "UIC_RR"
+                },
+                {
+                  "code": "8748100",
+                  "type": "UIC_UNI"
+                }
+              ],
+              "name": "NANTES"
+            },
+            "@id": "_:4652b57c-6750-4ad0-a978-541fc7eb4874",
+            "departureDate": "2025-06-30T09:39",
+            "arrivalDate": "2025-06-30T11:54",
+            "tags": ["A"],
+            "segments": [
+              {
+                "openSegment": false,
+                "distance": 385,
+                "carbonFootprint": {
+                  "unit": "KG",
+                  "trainFootprint": 2.4,
+                  "carFootprint": 41.6
+                },
+                "origin": {
+                  "codes": [
+                    {
+                      "code": "FRPMO",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87391003",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8739100",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "PARIS MONTPARNASSE 1 ET 2"
+                },
+                "infoTrain": {
+                  "onBoardServices": [
+                    {
+                      "code": "SBAR"
+                    },
+                    {
+                      "code": "SHAN"
+                    },
+                    {
+                      "code": "SNUR"
+                    },
+                    {
+                      "code": "SNPP"
+                    },
+                    {
+                      "code": "SPRIS"
+                    },
+                    {
+                      "code": "SVEP"
+                    },
+                    {
+                      "code": "SWIF"
+                    }
+                  ],
+                  "trainType": "TGF",
+                  "carrierRics": "1187",
+                  "carrierCode": "SN",
+                  "trainNumber": "8973",
+                  "departureDay": "2025-06-30",
+                  "transportationServiceOffer": "INOUI",
+                  "brandCode": "0250"
+                },
+                "destination": {
+                  "codes": [
+                    {
+                      "code": "FRNTE",
+                      "type": "RR"
+                    },
+                    {
+                      "code": "87481002",
+                      "type": "UIC_RR"
+                    },
+                    {
+                      "code": "8748100",
+                      "type": "UIC_UNI"
+                    }
+                  ],
+                  "name": "NANTES"
+                },
+                "scheduleInformations": [
+                  {
+                    "duration": 135,
+                    "departureDate": "2025-06-30T09:39",
+                    "arrivalDate": "2025-06-30T11:54",
+                    "status": "CONFIRMED"
+                  }
+                ],
+                "rank": "1",
+                "companyCodes": ["1187"],
+                "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1",
+                "passengerAssignments": [
+                  {
+                    "assignment": {
+                      "seat": {
+                        "seatPosition": "ACOU",
+                        "spaceType": "ADOC",
+                        "tgvDeck": "ANVH"
+                      },
+                      "coachNumber": "7",
+                      "overBooking": false,
+                      "seatNumber": "75"
+                    },
+                    "@id": "_:passenger_1",
+                    "passengerReference": {
+                      "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+                    },
+                    "fullTrainExchange": false
+                  }
+                ],
+                "travelClass": "2"
+              }
+            ],
+            "co2SumStatus": "TOTAL"
+          }
+        ],
+        "passengers": [
+          {
+            "firstName": "...",
+            "lastName": "...",
+            "ticketless": false,
+            "smsReminderEligibility": false,
+            "distributionChannelRank": 1,
+            "rank": "1",
+            "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8",
+            "customer": {
+              "@id": "_:7051ba8e-5d79-4ca6-8e03-8281a3781e5e"
+            }
+          }
+        ],
+        "ancillaryServiceProductAllocations": [
+          {
+            "product": {
+              "code": "SANIM_LT_VOYAGES_S3",
+              "validityStartDate": "2015-01-01",
+              "microConditionCodes": ["SSC_PR_FF_ANI_PETIT_DOM"],
+              "@id": "/catalog/products/SANIM_LT_VOYAGES_S3",
+              "label": "Animaux à bord",
+              "properties": [
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "paid",
+                  "booleanValue": true
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "claimable",
+                  "booleanValue": true
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "individualPrice",
+                  "booleanValue": true
+                },
+                {
+                  "propertyType": "INTEGER",
+                  "name": "maxNumberByJourneyPassenger",
+                  "integerValue": 2
+                },
+                {
+                  "propertyType": "STRING_LIST",
+                  "name": "categories",
+                  "stringListValue": ["ANIMAL"]
+                }
+              ],
+              "metaProduct": {
+                "@id": "/catalog/metaProducts/SERVICE_VOYAGES_S3"
+              }
+            },
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              }
+            ],
+            "trainSegments": [
+              {
+                "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+              }
+            ],
+            "properties": [
+              {
+                "stringValue": "000000000000200153",
+                "propertyType": "STRING",
+                "name": "fareCode"
+              },
+              {
+                "propertyType": "STRING_LIST",
+                "name": "ageGroupCodeList"
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "immediatePayment",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "BOOLEAN",
+                "name": "returnMandatory",
+                "booleanValue": false
+              },
+              {
+                "propertyType": "STRING_LIST",
+                "name": "fareGroupList",
+                "stringListValue": ["ANI"]
+              }
+            ]
+          }
+        ],
+        "deliveryTerm": {
+          "carmillonPassControl": false,
+          "paymentCardControl": false
+        },
+        "confirmationDateLimit": "2025-06-24T16:32",
+        "marketingCarrierRefCreationTimestamp": "2025-06-17T16:32:18",
+        "creationDistributionChannel": {
+          "pointOfSaleLabel": "INTERNET CONNEXION CENTRAL",
+          "agent": "WEB",
+          "machineCode": "43",
+          "uicCityCode": "87204966",
+          "foreignAgency": false,
+          "agency": true,
+          "revenueOfficeCode": "1",
+          "category": "VSC_FRANCE"
+        },
+        "nameControl": false,
+        "ancillaryServiceEligibilities": [
+          {
+            "product": {
+              "@id": "/catalog/products/SANIM_LT_VOYAGES_S3"
+            },
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              }
+            ],
+            "price": {
+              "amount": 7,
+              "currency": "EUR"
+            },
+            "remainingSlots": 99,
+            "segment": {
+              "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+            }
+          },
+          {
+            "product": {
+              "@id": "/catalog/products/SANIM_BG_VOYAGES_S3"
+            },
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              }
+            ],
+            "price": {
+              "amount": 7,
+              "currency": "EUR"
+            },
+            "remainingSlots": 99,
+            "segment": {
+              "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+            }
+          },
+          {
+            "product": {
+              "@id": "/catalog/products/SVEP_VOYAGES_S3"
+            },
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              }
+            ],
+            "price": {
+              "amount": 10,
+              "currency": "EUR"
+            },
+            "remainingSlots": 2,
+            "segment": {
+              "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+            }
+          }
+        ],
+        "bundledServiceProductAllocations": [
+          {
+            "product": {
+              "code": "SPRIS_PART_VOY_S3",
+              "validityStartDate": "2015-01-01",
+              "@id": "/catalog/products/SPRIS_PART_VOY_S3",
+              "label": "Prise électrique partagée",
+              "properties": [
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "paid",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "claimable",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "individualPrice",
+                  "booleanValue": true
+                }
+              ],
+              "metaProduct": {
+                "@id": "/catalog/metaProducts/SERVICE_VOYAGES_S3"
+              }
+            },
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              }
+            ],
+            "trainSegments": [
+              {
+                "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+              }
+            ]
+          },
+          {
+            "product": {
+              "code": "SPRESS_VOY_S3",
+              "validityStartDate": "2015-01-01",
+              "@id": "/catalog/products/SPRESS_VOY_S3",
+              "label": "Presse et contenus sur le Portail TGV INOUI",
+              "properties": [
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "paid",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "claimable",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "individualPrice",
+                  "booleanValue": true
+                }
+              ],
+              "metaProduct": {
+                "@id": "/catalog/metaProducts/SERVICE_VOYAGES_S3"
+              }
+            },
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              }
+            ],
+            "trainSegments": [
+              {
+                "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+              }
+            ]
+          },
+          {
+            "product": {
+              "code": "SBAG_INCL_VOY_S3",
+              "validityStartDate": "2015-01-01",
+              "@id": "/catalog/products/SBAG_INCL_VOY_S3",
+              "label": "Bagages inclus",
+              "properties": [
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "paid",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "claimable",
+                  "booleanValue": false
+                },
+                {
+                  "propertyType": "BOOLEAN",
+                  "name": "individualPrice",
+                  "booleanValue": true
+                }
+              ],
+              "metaProduct": {
+                "@id": "/catalog/metaProducts/SERVICE_VOYAGES_S3"
+              }
+            },
+            "passengers": [
+              {
+                "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+              }
+            ],
+            "trainSegments": [
+              {
+                "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+              }
+            ]
+          }
+        ],
+        "quote": {
+          "amount": {
+            "amount": 86,
+            "currency": "EUR"
+          },
+          "pricesBySegmentsAndPassengers": [
+            {
+              "amount": {
+                "amount": 79,
+                "currency": "EUR"
+              },
+              "passengers": [
+                {
+                  "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+                }
+              ],
+              "trainSegments": [
+                {
+                  "@id": "_:99b826f3-f991-478a-837a-c83966ba1ff1"
+                }
+              ]
+            }
+          ],
+          "meansOfPaymentEligibilities": [
+            {
+              "paymentMethod": "CASH",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "CREDIT_CARD",
+              "additionalInformationType": "CARD_NUMBER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CB_WITH_TRANSACTION_ID",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CB_LODGE_WITH_TRANSACTION_ID",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_TRANSFERT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_PAYLIB",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PAYMENT_WITH_SMILES_POINTS",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_BY_PAYPAL",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "DIGITAL_VOUCHER",
+              "additionalInformationType": "RECEIPT_ID"
+            },
+            {
+              "paymentMethod": "SPECIFIC_VOUCHER",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PRELIMINARY_PAYMENT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "REDUCTION_COUPON",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "SNCF_CORPORATE_ACCOUNT",
+              "additionalInformationType": "CORPORATE_ACCOUNT_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "BANK_CHECK_OR_TRAVELER_CHECK",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_LODGE_WITH_TRANSACTION_ID",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "PAYMENT_CB_WITH_TRANSACTION_ID",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "VACATION_CHECK",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TRAVEL_AGENCY_CORPORATE_ACCOUNT",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "TELEPAYMENT_CV_CONNECT_VAD",
+              "additionalInformationType": "OTHER"
+            },
+            {
+              "paymentMethod": "PAYMENT_CV_CONNECT_PROX",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "SPLIT_PAYMENT",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "SPLIT_PAYMENT_BY_THIRD_PARTY_COLLECTION",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "INSTANT_TRANSFER",
+              "additionalInformationType": "TRANSACTION_ID"
+            },
+            {
+              "paymentMethod": "GIFT_CARD",
+              "additionalInformationType": "RECEIPT_ID"
+            }
+          ],
+          "issuable": true,
+          "ticketKindEligibilitiesWithRequiredData": [
+            {
+              "requiredContactDataForIssuing": {
+                "logicalOperator": "AND",
+                "attributeNameOperandList": [
+                  "mobilePhoneNumber OR emailAddress"
+                ]
+              },
+              "ticketKindCode": "DEMATERIALIZED",
+              "supportKindEligibilities": [
+                {
+                  "supportKindCode": "PDF",
+                  "deliveryKindEligibilities": [
+                    {
+                      "deliveryKindCode": "DISTRIBUTOR_OWN_MANAGEMENT"
+                    },
+                    {
+                      "deliveryKindCode": "EMAIL"
+                    }
+                  ]
+                },
+                {
+                  "supportKindCode": "BARCODE_2D",
+                  "deliveryKindEligibilities": [
+                    {
+                      "deliveryKindCode": "DISTRIBUTOR_OWN_MANAGEMENT"
+                    }
+                  ]
+                }
+              ],
+              "requiredPassengersDataForIssuing": [
+                {
+                  "passengers": [
+                    {
+                      "@id": "_:2a221537-219e-42ad-8618-ae08503e36f8"
+                    }
+                  ],
+                  "requiredData": {
+                    "logicalOperator": "AND",
+                    "attributeNameOperandList": [
+                      "lastName",
+                      "firstName",
+                      "birthDate"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "eligibleToInvoice": false,
+        "@id": "/refOrders/orders/CL8MYS/serviceItems/45242b99-ead0-4b39-bbe5-b0b2f829c1be",
+        "marketingCarrierRef": "PUEB5W",
+        "category": "RAIL_TRANSPORTATION",
+        "status": "TO_BE_CONFIRMED"
+      }
+    ]
+  }
+}
